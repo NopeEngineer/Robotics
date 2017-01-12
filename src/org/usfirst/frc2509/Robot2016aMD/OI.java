@@ -85,4 +85,9 @@ public class OI {
         return rStick;
     }
 
+	public void CheckDigital() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
