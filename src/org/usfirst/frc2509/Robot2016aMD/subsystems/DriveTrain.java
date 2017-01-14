@@ -35,5 +35,9 @@ public class DriveTrain extends Subsystem {
     public void OpControl(Joystick lStick, Joystick rStick){
     	robotDrive.tankDrive(lStick.getY(), rStick.getY());
     }
+	public void setSafetyEnabled(boolean b) {
+		// TODO Auto-generated method stub
+		
+	}
 }
 

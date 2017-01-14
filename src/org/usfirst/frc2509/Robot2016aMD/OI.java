@@ -43,8 +43,8 @@ public class OI {
         lStick = new Joystick(0);
         
       //Grips Open/Close
-        JoystickButton GripsOpen = new JoystickButton(rStick, 4);
-        	GripsOpen.whenPressed(new GripsOpen());
+       // JoystickButton GripsOpen = new JoystickButton(rStick, 4);
+        	//GripsOpen.whenPressed(new GripsOpen());
         JoystickButton GripsClose = new JoystickButton(rStick, 5);
         	GripsClose.whenPressed(new GripsClose());
       //Elevator Up/down/stop
@@ -71,7 +71,7 @@ public class OI {
         	
         	
         	
-        SmartDashboard.putData("Autonomous Command", new AutonomousCommand());
+        SmartDashboard.putData("Autonomous Command", new ArmsOut());
 
     }
 
