@@ -12,8 +12,6 @@
 
 package org.usfirst.frc2509.Robot2016aMD;
 
-import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
-
 import org.usfirst.frc2509.Robot2016aMD.commands.ArmsIn;
 import org.usfirst.frc2509.Robot2016aMD.commands.ArmsOut;
 import org.usfirst.frc2509.Robot2016aMD.commands.AutonomousCommand;
@@ -26,8 +24,8 @@ import org.usfirst.frc2509.Robot2016aMD.commands.GuidesClose;
 import org.usfirst.frc2509.Robot2016aMD.commands.GuidesOpen;
 
 import edu.wpi.first.wpilibj.Joystick;
-import edu.wpi.first.wpilibj.buttons.Button;
 import edu.wpi.first.wpilibj.buttons.JoystickButton;
+import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
 
 

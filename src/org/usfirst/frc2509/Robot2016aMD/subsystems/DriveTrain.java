@@ -25,8 +25,8 @@ import edu.wpi.first.wpilibj.command.Subsystem;
  */
 public class DriveTrain extends Subsystem {
 
-    private final SpeedController lmotor = RobotMap.driveTrainlMotor;
-    private final SpeedController rmotor = RobotMap.driveTrainRmotor;
+    private final SpeedController lMotor = RobotMap.driveTrainlMotor;
+    private final SpeedController rMotor = RobotMap.driveTrainrMotor;
     private final edu.wpi.first.wpilibj.RobotDrive robotDrive = RobotMap.robotDrive;
    
     public void initDefaultCommand() {
